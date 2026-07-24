@@ -51,7 +51,7 @@ In SQL and Power Query, the following steps were performed:
 ### Data Model (Star Schema)
 The data was modelled in Power BI using a single-direction **Star Schema**:
 
-
+![Dashboard]( https://github.com/tharannum/Melodica-Music-Dance-Analytics-Dashboard/blob/main/data%20modelling.png)
 
 * **Fact Tables:** `FactEnrollments`, `FactPayments`
 * **Dimension Tables:** `DimStudents`, `DimCourses`, `DimBranches`, `DimCalendar`, `DimPayments`
@@ -79,8 +79,11 @@ The following analytical components were engineered in Power BI:
 ### Visualizations & Dashboard Architecture
 * **Minimalist UI/UX:** Built with a clean yellow and dark grey branded theme using custom navigation panels.
 * **Page 1 (Executive Overview):** KPI summary cards, monthly revenue trend line chart, and branch comparison horizontal bar chart.
+  ![Dashboard]( https://github.com/tharannum/Melodica-Music-Dance-Analytics-Dashboard/blob/main/melodica%201.png)
 * **Page 2 (Branch & Campus Operations):** Location drop-down slicers, category distribution donut chart, and an operational matrix with in-cell data bars for course-level drill-down.
+  ![Dashboard](  https://github.com/tharannum/Melodica-Music-Dance-Analytics-Dashboard/blob/main/melodica%202.png)
 * **Page 3 (Student Demographics & Category Insights):** Demographics stacked column charts, Music vs. Dance category demand split, and revenue distribution by age cohorts.
+  ![Dashboard](  https://github.com/tharannum/Melodica-Music-Dance-Analytics-Dashboard/blob/main/3.png)
 
 ---
 
